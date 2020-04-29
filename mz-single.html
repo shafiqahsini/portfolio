@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Shafiqah Sini- LRS</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+<link href="assets/img/favicon.jpg" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyPortfolio - v2.0.0
+  * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<style>
+#copy-me {
+    display:none
+}
+.btn{
+  border: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+color:#333333;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.btn .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: #FFF;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+  text-size: 5px;
+}
+
+.btn .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.btn:hover .tooltiptext {
+  visibility: visible;
+}
+
+</style>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- ======= Navbar ======= -->
+  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+    <div class="container py-2 py-md-5">
+      <div class="row align-items-start">
+          <ul class="custom-menu row" style="width: 100%;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="portfolio.html">Portfolio</a></li>
+			
+			<li style="margin-left: 780px;">
+			<button class="btn" id="copy-btn" style="padding-bottom: 0px; padding-top: 0px;">
+			<i class="fa fa-envelope"><span class="tooltiptext" style=" font-size: 18px;">Click to copy my email address 😊</span></i></button><br/><br/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<input type="text" name="Element To Be Copied" id="copy-me" value="nurshafiqah.abdulsini@gmail.com"/>
+
+<script>
+var copyBtn   = $("#copy-btn"),
+    input     = $("#copy-me");
+
+function copyToClipboardFF(text) {
+  window.prompt ("Copy to clipboard: Ctrl C, Enter", text);
+}
+
+function copyToClipboard() {
+  var success   = true,
+      range     = document.createRange(),
+      selection;
+
+  // For IE.
+  if (window.clipboardData) {
+    window.clipboardData.setData("Text", input.val());        
+  } else {
+    // Create a temporary element off screen.
+    var tmpElem = $('<div>');
+    tmpElem.css({
+      position: "absolute",
+      left:     "-1000px",
+      top:      "-1000px",
+    });
+    // Add the input value to the temp element.
+    tmpElem.text(input.val());
+    $("body").append(tmpElem);
+    // Select temp element.
+    range.selectNodeContents(tmpElem.get(0));
+    selection = window.getSelection ();
+    selection.removeAllRanges ();
+    selection.addRange (range);
+    // Lets copy.
+    try { 
+      success = document.execCommand ("copy", false, null);
+    }
+    catch (e) {
+      copyToClipboardFF(input.val());
+    }
+    if (success) {
+      alert ("My email has been copied to your clipboard!");
+      // remove temp element.
+      tmpElem.remove();
+    }
+  }
+}
+
+copyBtn.on('click', copyToClipboard);
+</script>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-light custom-navbar">
+    <div class="container">
+	  
+      <a class="navbar-brand" href="index.html"><img src="assets/img/newlogo.png" style="width: 7%;"></a>
+
+      <a href="#" class="burger" data-toggle="collapse" data-target="#main-navbar">
+        <span></span>
+      </a>
+
+    </div>
+  </nav>
+
+  <main id="main">
+    <section class="section" style="padding-top: 0;">
+      <div class="site-section pb-0">
+        <div class="container" style="background-color: rgb(245, 245, 245); padding-top:50px;padding-bottom:50px;">
+          <div class="row align-items-stretch" style="padding:20px">
+            <div class="col-md-6" data-aos="fade-up">
+              <img src="assets/img/mzfb.png" alt="Image" class="img-fluid" >
+            </div>
+            <div class="col-md-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              <div class="sticky-content">
+				<b><h3 class="heading" style="color: #772828;font-size: 90px;">04.</h3></b>
+                <h3 class="h3">MZ Consulting</h3>
+                <p class="mb-4"><span class="text-muted">Internet Marketing</span></p>
+
+                <div class="mb-5" style="text-align: justify;">
+                  <p>MZ Consulting was my first client for my freelance. This company providing an audit service.</p><br>
+					
+					<p><h4>WHAT I DO:</h4></p>
+					<p> Plan, develop, execute, monitor and report digital marketing campaign</p>
+					<p> Create creative content for digital marketing</p>
+					<p>Plan and create content for Facebook page</p>
+                </div>
+				
+              </div>
+            </div>
+          </div>
+        </div></div>
+    </section>
+	
+	<section class="section pt-0" style="padding-bottom: 0px;">
+      <div class="container">
+        <div class="owl-carousel testimonial-carousel" >
+          <div class="testimonial-wrap" style="background-color: white">
+		  <div class="row align-items-stretch" style="padding:20px">
+            <div class="col-md-12" data-aos="fade-up" >
+              <div class="sticky-content">
+				<b><h3 class="heading" style="color: black;font-size: 40px;text-align:center;">DIGITAL MARKETING CAMPAIGN</h3></b>
+                <div class="mb-5" style="text-align: justify;">
+                <img src="assets/img/W1.png" alt="Image" class="img-fluid border" >
+
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+
+        </div>
+    </section>
+    <!-- ======= Testimonials Section ======= -->
+    <section class="section pt-0" >
+      <div class="container">
+
+        <div class="owl-carousel testimonial-carousel" >
+
+          <div class="testimonial-wrap" style="background-color: rgb(246, 239, 233)">
+		  <div class="row align-items-stretch" style="padding:20px">
+            <div class="col-md-12" data-aos="fade-up">
+              <div class="sticky-content">
+				<b><h3 class="heading" style="color: black;font-size: 30px;">CREATIVE CONTENT & CONTENT FOR FACEBOOK PAGE</h3></b>
+                <hr>
+		  <div class="row align-items-stretch" style="padding:20px">
+            <div class="col-md-6" data-aos="fade-up" >
+              <div class="sticky-content">
+                <div class="mb-5" style="text-align: justify;">
+                <img src="assets/img/W5.png" alt="Image" class="img-fluid border" >
+
+                </div>
+              </div>
+            </div>
+			
+            <div class="col-md-6 ml" data-aos="fade-up">
+              <div class="sticky-content">
+				<img src="assets/img/W2.png" alt="Image" class="img-fluid border" >
+              </div>
+            </div>
+          </div>
+		  		  <div class="row align-items-stretch" style="padding:20px">
+            <div class="col-md-6" data-aos="fade-up" >
+              <div class="sticky-content">
+                <div class="mb-5" style="text-align: justify;">
+                <img src="assets/img/W6.png" alt="Image" class="img-fluid border" >
+
+                </div>
+              </div>
+            </div>
+			
+            <div class="col-md-6 ml" data-aos="fade-up">
+              <div class="sticky-content">
+				<img src="assets/img/W7.png" alt="Image" class="img-fluid border" >
+              </div>
+            </div>
+          </div>
+		  <div class="row align-items-stretch" style="padding:20px">
+            <div class="col-md-6" data-aos="fade-up" >
+              <div class="sticky-content">
+                <div class="mb-5" style="text-align: justify;">
+                <img src="assets/img/W8.png" alt="Image" class="img-fluid border" >
+
+                </div>
+              </div>
+            </div>
+			
+            <div class="col-md-6 ml" data-aos="fade-up">
+              <div class="sticky-content">
+				<img src="assets/img/W3.png" alt="Image" class="img-fluid border" >
+              </div>
+            </div>
+          </div>
+		  <div class="row align-items-stretch" style="padding:20px">
+            <div class="col-md-6" data-aos="fade-up" >
+              <div class="sticky-content">
+                <div class="mb-5" style="text-align: justify;">
+                <img src="assets/img/W4.png" alt="Image" class="img-fluid border" >
+
+                </div>
+              </div>
+            </div>
+			
+            <div class="col-md-6 ml" data-aos="fade-up">
+              <div class="sticky-content">
+				<img src="assets/img/W10.png" alt="Image" class="img-fluid border" >
+              </div>
+            </div>
+          </div>
+		  <div class="row align-items-stretch" style="padding:20px">
+            <div class="col-md-6" data-aos="fade-up" >
+              <div class="sticky-content">
+                <div class="mb-5" style="text-align: justify;">
+                <img src="assets/img/W11.png" alt="Image" class="img-fluid border" >
+
+                </div>
+              </div>
+            </div>
+			
+            <div class="col-md-6 ml" data-aos="fade-up">
+              <div class="sticky-content">
+				<img src="assets/img/W12.png" alt="Image" class="img-fluid border" >
+              </div>
+            </div>
+          </div>
+		  
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+
+        </div>
+    </section><!-- End Testimonials Section -->
+	
+	
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="mb-1">&copy; Copyright MyPortfolio. All Rights Reserved</p>
+          <div class="credits">
+            <!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
+          -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top md-right"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

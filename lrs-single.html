@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Shafiqah Sini- LRS</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+<link href="assets/img/favicon.jpg" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyPortfolio - v2.0.0
+  * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<style>
+#copy-me {
+    display:none
+}
+.btn{
+  border: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+color:#333333;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.btn .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: #FFF;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+  text-size: 5px;
+}
+
+.btn .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.btn:hover .tooltiptext {
+  visibility: visible;
+}
+
+</style>
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- ======= Navbar ======= -->
+  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+    <div class="container py-2 py-md-5">
+      <div class="row align-items-start">
+          <ul class="custom-menu row" style="width: 100%;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="active"><a href="portfolio.html">Portfolio</a></li>
+			
+			<li style="margin-left: 780px;">
+			<button class="btn" id="copy-btn" style="padding-bottom: 0px; padding-top: 0px;">
+			<i class="fa fa-envelope"><span class="tooltiptext" style=" font-size: 18px;">Click to copy my email address 😊</span></i></button><br/><br/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<input type="text" name="Element To Be Copied" id="copy-me" value="nurshafiqah.abdulsini@gmail.com"/>
+
+<script>
+var copyBtn   = $("#copy-btn"),
+    input     = $("#copy-me");
+
+function copyToClipboardFF(text) {
+  window.prompt ("Copy to clipboard: Ctrl C, Enter", text);
+}
+
+function copyToClipboard() {
+  var success   = true,
+      range     = document.createRange(),
+      selection;
+
+  // For IE.
+  if (window.clipboardData) {
+    window.clipboardData.setData("Text", input.val());        
+  } else {
+    // Create a temporary element off screen.
+    var tmpElem = $('<div>');
+    tmpElem.css({
+      position: "absolute",
+      left:     "-1000px",
+      top:      "-1000px",
+    });
+    // Add the input value to the temp element.
+    tmpElem.text(input.val());
+    $("body").append(tmpElem);
+    // Select temp element.
+    range.selectNodeContents(tmpElem.get(0));
+    selection = window.getSelection ();
+    selection.removeAllRanges ();
+    selection.addRange (range);
+    // Lets copy.
+    try { 
+      success = document.execCommand ("copy", false, null);
+    }
+    catch (e) {
+      copyToClipboardFF(input.val());
+    }
+    if (success) {
+      alert ("My email has been copied to your clipboard!");
+      // remove temp element.
+      tmpElem.remove();
+    }
+  }
+}
+
+copyBtn.on('click', copyToClipboard);
+</script>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-light custom-navbar">
+    <div class="container">
+	  
+      <a class="navbar-brand" href="index.html"><img src="assets/img/newlogo.png" style="width: 7%;"></a>
+
+      <a href="#" class="burger" data-toggle="collapse" data-target="#main-navbar">
+        <span></span>
+      </a>
+
+    </div>
+  </nav>
+
+  <main id="main">
+    <section class="section" style="padding-top: 0;">
+      <div class="site-section pb-0">
+        <div class="container" style="background-color: rgb(245, 245, 245); padding-top:50px;padding-bottom:50px;">
+          <div class="row align-items-stretch" style="padding:20px">
+            <div class="col-md-6" data-aos="fade-up">
+              <img src="assets/img/indexlrs.png" alt="Image" class="img-fluid shadow" >
+            </div>
+            <div class="col-md-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              <div class="sticky-content">
+				<b><h3 class="heading" style="color: #ff4d4d;font-size: 90px;">01.</h3></b>
+                <h3 class="h3">LABUAN RUNNER SYSTEM</h3>
+                <p class="mb-4"><span class="text-muted">Website</span></p>
+
+                <div class="mb-5" style="text-align: justify;">
+                  <p>Labuan Runner System (LRS) is a web-based system of booking dispatch parcel service.
+					My focus to build this system for startup company of dispatch parcel service in Labuan. </p><p>The main
+					objectives were to display quotation, send an email notification and improve application form.
+					Basically, this website has 3 users which were for customer, dispatcher and admin.
+					</p>
+
+                </div>
+				
+                <p><a href="http://runnersystem.000webhostapp.com/user/index.php" class="readmore">Visit Website</a></p>
+              </div>
+            </div>
+          </div>
+        </div></div>
+    </section>
+	
+	<section class="section" style="padding-top: 0;">
+	<div class="container">
+	<div class="col-md-12 aos-init aos-animate" data-aos="fade-up" style="padding-bottom: 40px;">
+            <h2 style="text-align:center;">HOW IT WORKS?</h2>
+    </div>
+	<div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200" style="text-align: justify;">
+	
+          <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
+            <p><b>Customer</b></p>
+			<img class="img-fluid shadow" src="assets/img/user.png" style="border: #DDD solid 1px;">
+			<p style="padding-top: 40px;">Customer need to fill the instant quote form and choose which service package that they want. </p>
+			<p>After that they will fill the booking form
+			and pay the service by using paypal.</p><p> After the payment done, receipt will be sent to their email.</p>
+          </div>
+          <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4" >
+               <p><b>Admin</b></p>
+			   <img class="img-fluid shadow" src="assets/img/admin.png" style="border: #DDD solid 1px;">
+			   <p style="padding-top: 40px;">Admin able to manage the bookings that made by customer. Manage the task that accepted by the dispatcher (which dispatcher that accept bookings request).</p>
+			  <p>Manage users (customer, admin & dispatcher), where they can add, preview and delete the user. Admin also can approve or disapprove application of dispatcher. 
+			  Approvement notification will automatically sent to the dispatcher's email</p>
+			   <p>Manage the service packages by add, edit or delete the packages. Lastly, admin also can send email directly through this website.</p>
+          </div>
+          <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
+            <p><b>Dispatcher</b></p>
+			<img class="img-fluid shadow" src="assets/img/runner.png" style="border: #DDD solid 1px;">
+			<p style="padding-top: 40px;">Dispatcher can see bookings request through their wall. </p><p>They also can manage the process of dispatch parcel. </p><p>Plus, they also can view their history task.</p>
+          </div>
+          
+        </div></div>
+		</section>
+    <!-- ======= Testimonials Section ======= -->
+    <section class="section pt-0" >
+      <div class="container">
+
+        <div class="owl-carousel testimonial-carousel" >
+
+          <div class="testimonial-wrap" style="background-color: rgb(246, 239, 233)">
+		  <div class="row align-items-stretch" style="padding:20px">
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="sticky-content">
+				<b><h3 class="heading" style="color: black;font-size: 70px;">PROBLEMS</h3></b>
+                <hr>
+
+                <div class="mb-5" style="text-align: justify;">
+                <p>I pick one dispatch parcel that work as a group in Labuan as my case study. Their management system
+				  basically using a whatsapp group as their main platform to communicate and distribute task/job to other members.
+				</p>
+				
+				<p>By using this method, there were always a human error happened during running this business. For example,
+				fraud or scam in payment, inconsistency of price and notification during delivery, documents missing and limited
+				number of member in whatsapp group. 
+				</p>
+				
+				<p>Referred to these problems that facing by the company, I tried to build a web-based that could solved their problems
+				</p>
+
+                </div>
+              </div>
+            </div>
+			
+            <div class="col-md-6 ml-auto" data-aos="fade-up">
+              <div class="sticky-content">
+				<b><h3 class="heading" style="color: black;font-size: 70px;">CHALLENGES</h3></b>
+                <hr>
+
+                <div class="mb-5" style="text-align: justify;">
+                <p>The challenges when to build this system was the company that I choose as my case study no longer operating.
+				  Since I could not find any dispatcher company in Labuan, I choose to referred a dispatcher that work in pair, group or solo
+				  in Labuan and Sabah to gather some information. 
+				</p>
+				<p>I also referred few existing websites dispatch parcel at peninsular Malaysia as reference. However, I was unable to make 
+				a bookings since the service only available at peninsular Malaysia, I also unable to sign-in into dispatcher's and admin's account.
+				</p><p>Therefore, with information that I got from dispatchers and existing websites, I compare, combine and convert it into
+				a website that could ease the customer as much as possible.
+				</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+
+        </div>
+    </section><!-- End Testimonials Section -->
+
+	<section class="section" style="padding-top: 0;">
+	<div class="container">
+	<img src="assets/img/summary interview.png" alt="Image" class="img-fluid border" >
+	<h3 style="padding-top:50px">Research</h3>
+	<p>To figure out the specifics users needs was a tricky part, especially for customer.
+	To get a broad information about customer needs, I distribute questionnaire to potential customer by 
+	using a Google Form because it easy to use.</p>
+	<p>In order to get accurate answers and better ideas, I also do the interview session with a few potential customer and dispatcher.
+	I more focus on asked about problem that have been faced and procedure they currently used.
+	</p>
+	<p>I also do some application review to study about competitor's website design and features that they have in their website.
+	After that, I compare and combine and apply it into this system so it can ease the users.
+	</p>
+	</div>
+		</section>
+	
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="mb-1">&copy; Copyright MyPortfolio. All Rights Reserved</p>
+          <div class="credits">
+            <!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
+          -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top md-right"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
